@@ -10,23 +10,23 @@ public class Mail {
 		int b;
 		int sum;
 
-		a = enterFromConsole("a >> "); // точка вызова метода
+		a = enterFromConsole("a >> "); // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 		b = enterFromConsole("b >> ");
 
-		sum = sum(a, b); // фактические параметры
+		sum = sum(a, b); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		System.out.println(a + " + " + b + " = " + sum);
 
 	}
 
-	public static int sum(int x1, int x2) { // формальные параметры
+	public static int sum(int x1, int x2) { // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ РєРѕРґРёСЂРѕРІРєР° СЋС‚РёС„8
 		int sum;
 		sum = x1 + x2;
-		return sum; // или return x1 + x2
+		return sum; // пїЅпїЅпїЅ return x1 + x2
 	}
 
 	public static int enterFromConsole(String message) {
-		// описание метода
-		@SuppressWarnings("resource") // аннотация -- означает что метод close для sc не вызываем
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+		@SuppressWarnings("resource") // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ close пїЅпїЅпїЅ sc пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 		Scanner sc = new Scanner(System.in);
 		int value;
 		System.out.print(message);
